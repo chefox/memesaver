@@ -6,7 +6,7 @@ cursor = conn.cursor()
 
 offset = 0 # параметр необходим для подтверждения обновления
 URL = 'https://api.telegram.org/bot' # URL на который отправляется запрос
-TOKEN = '693069318:AAEl-e4U6DBFwXSKy8R_MN13l1SIUGX4l7I' # токен вашего бота, полученный от @BotFather
+TOKEN = '' # токен вашего бота, полученный от @BotFather
 data = {'offset': 'offset  1', 'limit': 0, 'timeout': 0}
 
 try: # обрабатываем исключения
